@@ -18,7 +18,7 @@
 
 ## Website
 
-## Team Members
+## Team S.C.A.R
 - Skylar Rice
 - Sean Rowe
 - Dianah Cortez
