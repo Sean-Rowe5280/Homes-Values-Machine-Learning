@@ -28,7 +28,8 @@
 - Flask, HTML/CSS/JS (website platform)
 - Python
 - GeoCoders API (converting address to Lat/Long, pip install geopy)
-
+- Machine Learning Model : ie Random Forrest or gradient boosting (why we choose that model.....)
+- 
 ## Dashboard
 <insert either the whole dashboard, story, or a few slides>
 
