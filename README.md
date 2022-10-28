@@ -35,5 +35,5 @@
 ## Team S.C.A.R
 - Sean Rowe
 - Cortez, Dianah
-- Rice, Skylar
 - Amanda Palenchar
+- Rice, Skylar
