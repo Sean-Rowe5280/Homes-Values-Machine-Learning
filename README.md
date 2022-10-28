@@ -23,14 +23,14 @@
 - Jupyter notebook
 - VS Code,PgAdmin
 - Quick Database Designs (schema)
-- SQL (database) Primary Key (Lat/Long)
+- SQL (database) (Lat/Long) (disdance from realestate data to TJ/WM data, wordsmith this part....)
 - Tableau 
 - Flask, HTML/CSS/JS (website platform)
 - Python
 - GeoCoders API (converting address to Lat/Long, pip install geopy)
 
 ## Dashboard
-<insert either the whole dashboard or a few slides>
+<insert either the whole dashboard, story, or a few slides>
 
 ## Website
 
