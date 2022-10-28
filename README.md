@@ -23,6 +23,7 @@
 - Jupyter notebook
 - VS Code,PgAdmin
 - Quick Database Designs (schema)
+- SQL (database) Primary Key (Lat/Long)
 - Tableau 
 - Flask, HTML/CSS/JS (website platform)
 - Python
