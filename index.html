@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Real_Estate_Final_Project</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style type="text/css">
+    .bg-cover {
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.295) 100%,rgba(255,255,255,0.9) 0%), url('https://raw.githubusercontent.com/dianahcortez/Belly-Button-Biodiversity.io/6cd83af248eff1f3fcd967df43544d7fdc7b4fbb/images/Notable_Biotic_Main-760x378.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+  </style>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+  <body style="background:linear-gradient(to bottom right, #666699 0%, #ffffcc 104%)"></body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron jumbotron bg-cover text-center">
+        <h1>Real Real Estate Final Project</h1>
+        <p><b>Analyzing Proximity to either Trader Joe's or Walmart on Home Values</b></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5><b>Trader Joe's or Walmart:</b></h5>
+          <p><small>Select from the dropdown to update chart contents<br></small></p>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-danger">
+          <div class="panel-heading">
+            <h3 class="panel-title">TBD what we want in this section....?</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div id="bar"></div>
+        <p><b><center>Representation of Housing Values on Proximity to User Selection</center></b></p>
+      </div>
+      <div class="col-md-5">
+        <div id="gauge"></div>
+        <p><b><center>Radius Map Layer User Interaction.</center></b></p>
+      </div>
+    </div>
+      <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+        <p><b><center></center></b></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="./static/js/chart.js"></script>
+
+</body>
+
+</html>
