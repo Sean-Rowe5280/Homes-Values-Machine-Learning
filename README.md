@@ -7,19 +7,17 @@ Main communication is over Slack private group direct message, also meet during 
 
 ## Overview
 There are 559 Trader Joe’s retail stores in the United States as of October 24, 2022. The state with the most number of Trader Joe’s locations in the US is California, with 192 retail stores, which is about 34% of all Trader Joe’s retail stores in the US.
-
-Our Question: Does proximity to Trader Joe’s have any effect on housing prices?
-
+- Our Question: Does proximity to Trader Joe’s have any effect on housing prices?
 
 Walmart U.S has a total of 4,742 stores throughout the United States as of January 31st, 2022. 
-Top 5 Walmart Stores by State
-Texas 601
-Florida 386
-California 321
-North Carolina 216
-Georgia 215
+- Top 5 Walmart Stores by State
+-- Texas 601
+-- Florida 386
+-- California 321
+-- North Carolina 216
+-- Georgia 215
 
-Our Question: Does proximity to Walmart have any effect on housing prices?
+- Our Question: Does proximity to Walmart have any effect on housing prices?
 
 ### Questions
 - What does a house cost based upon various criteria (such as location to Trader Joes and Walmart)?
