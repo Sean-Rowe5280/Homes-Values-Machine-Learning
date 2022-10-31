@@ -8,8 +8,7 @@ Main communication is over Slack private group direct message, also meet during 
 ## Overview
 There are 559 Trader Joe’s retail stores in the United States as of October 24, 2022. The state with the most number of Trader Joe’s locations in the US is California, with 192 retail stores, which is about 34% of all Trader Joe’s retail stores in the US.
 
-Walmart U.S has a total of 4,742 stores throughout the United States as of January 31st, 2022. 
-Top 5 Walmart Stores by State
+Walmart U.S has a total of 4,742 stores throughout the United States as of January 31st, 2022. Top 5 Walmart Stores by State:
 - Texas 601
 - Florida 386
 - California 321
