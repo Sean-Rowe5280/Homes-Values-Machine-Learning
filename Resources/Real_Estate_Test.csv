@@ -1,0 +1,11 @@
+price,bed,bath,acre_lot,full_address,city,state,zip_code,house_size
+379000,3,2,0.04,"466 Western Ave, Lynn, MA, 01904",Lynn,Massachusetts,1904,1295
+379000,3,2,,"31 Gayron Way Unit 31, Lynn, MA, 01905",Lynn,Massachusetts,1905,1662
+289900,2,2,,"80 Foster St Apt 209, Peabody, MA, 01960",Peabody,Massachusetts,1960,880
+649900,3,2,0.57,"462 Essex St, Beverly, MA, 01915",Beverly,Massachusetts,1915,1874
+389900,2,2,,"2B Arnold Dr Unit 15B, Salem, MA, 01970",Salem,Massachusetts,1970,1586
+558900,3,2,,"2 Beckford St Unit 2, Salem, MA, 01970",Salem,Massachusetts,1970,1854
+775000,3,2,0.36,"59 Grover St, Beverly, MA, 01915",Beverly,Massachusetts,1915,2040
+665000,5,2,0.19,"61 Western Ave, Lynn, MA, 01904",Lynn,Massachusetts,1904,2164
+659900,4,2,0.09,"118 Chatham St, Lynn, MA, 01902",Lynn,Massachusetts,1902,2666
+565000,3,2,0.12,"8 Laurent Rd, Salem, MA, 01970",Salem,Massachusetts,1970,1630
