@@ -1,6 +1,9 @@
 # Real_Estate_Final_Project
 ![final project main image](https://user-images.githubusercontent.com/104927745/198071864-81dcb9e2-7d4d-4c70-86c4-75520bf9c21c.JPG)
 
+### View our Google Slide Presentation below
+https://docs.google.com/presentation/d/1hicRLcFchYJkWVCfVf5MAll55AlxC4zmu1B6mxmV2V8/edit?usp=sharing
+
 ## Communication Protocol 
 Main communication is over Slack private group direct message, also meet during office/class hours as group.  Google shared drive for presentation slides, notes and other communications as needed.
 
