@@ -4,6 +4,9 @@
 ### View our Google Slides Presentation below
 https://docs.google.com/presentation/d/1hicRLcFchYJkWVCfVf5MAll55AlxC4zmu1B6mxmV2V8/edit?usp=sharing
 
+### View our GitHub Pages
+https://dianahcortez.github.io/Real_Estate_Final_Project/
+
 ## Communication Protocol 
 Main communication is over Slack private group direct message, also meet during office/class hours as group.  Google shared drive for presentation slides, notes and other communications as needed.
 
