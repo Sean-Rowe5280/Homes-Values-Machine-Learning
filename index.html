@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Real_Estate_Final_Project</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style type="text/css">
+    .bg-cover {
+        background-image: url('https://github.com/dianahcortez/Real_Estate_Final_Project/blob/main/Capture.PNG?raw=true');
+       
+    }
+  </style>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+  <body style="background:linear-gradient(to bottom right, #f6f6f7 0%, #3b81ad 104%)"></body>
+
+  <div class="container-fluid">
+    <div class="row">S
+      <div class="col-md-12 jumbotron bg-cover, text-center">
+        <h1>Real Estate Final Project</h1>
+        <p><b>Analyzing Proximity to either Trader Joes or Walmart on Home Values</b></p>
+        <img src="\final project main image.JPG" width="800" height="250"
+      </div>
+      
+  <p><b><center>Representation of Housing Values on Proximity to User Selection</center></b></p>
+     <div class="row">    
+     <div class="col-md-5">
+      <div id="gauge"></div>
+      </div>
+  <p><b>
+    <center>Radius Map Layer User Interaction.</center></b></p>
+      <div class="row">
+      <div class="col-md-5">
+      <div id="bubble"></div>
+      </div>
+  <p><b>
+  <center>   
+      <div class="row">
+        <div class="col-md-2">
+          <div class="well">
+            <h5><b>Trader Joe's or Walmart</b></h5>
+            <p><small>Select and Filter<br></small></p>
+            <!-- <select id="selDataset"></select> -->
+            <select id="selDataset" onchange="optionChanged(this.value)"></select></center> 
+        </div>
+        <p><b>
+  <center>  
+<center>   
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5><b>State</b></h5>
+          <p><small>Select and Filter<br></small></p>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select></center> 
+      </div>
+      <p><b>
+<center>   
+      <div class="row">
+        <div class="col-md-2">
+          <div class="well">
+            <h5><b>Zip Code</b></h5>
+            <p><small>Select and Filter<br></small></p>
+              <!-- <select id="selDataset"></select> -->
+              <select id="selDataset" onchange="optionChanged(this.value)"></select></center> 
+          </div>  
+          <p><b>    
+<center>   
+      
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="./static/js/chart.js"></script>
+
+</body>
+
+</html>
