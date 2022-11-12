@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walmart and Trader Joe's Impact on Home Values: A Machine Learning Model </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+    <link rel="stylesheet" href="../static/css/predictions_style.css">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+</head>
+
+<body>  
+    <div class='container-fluid'>
+        <div class="jumbotron specialjum"> 
+            <h3 class='display-1'>Is there a correlation between home price and proximity to either of these stores? Make your own hypothesis.  </h3>
+            <p class="lead">Lets find out</p>
+            <p>Select from the features below and click PREDICT</p>
+            <br>
+        </div>
+
+            <!-- start of selection & prediction form -->
+            <div class='container-fluid'>
+                <div class="row">
+
+                        <!--list for walmart_store_count-->
+                        <div class="col-md-3">
+                            <div class="form-input" id="walmart_input">
+                                <br>
+                                <label for="walmart_store_count">Walmart Stores Nearby:</label>
+                                <br>
+                                <select id="walmart_store_count" name="walmart_store_count">
+                                    <option selected value="0">Please Make A Selection:</option>
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    </select>
+                            </div>
+                        </div>
+                        <br><br>
+                        
+                        <!--list for TJs-->
+                        <div class="col-md-3">
+                            <div class="form-input" id="tjs_input">
+                                <br>
+                                <label for="TJs_store_count">Trader Joe's Stores Nearby::</label>
+                                <br>
+                                <select name="TJs_store_count" id="TJs_store_count">
+                                    <option selected value="0">Please Make A Selection:</option>
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select> 
+                            </div>
+                        </div>
+                        <br><br>
+
+                        <!--list for beds-->
+                        <div class="col-md-3">
+                            <div class="form-input" id="bed_input">
+                                <br>
+                                <label for="bed">Number of Bedrooms:</label>
+                                <br>
+                                <select name="bed" id="bed">
+                                    <option value="1">Please Make A Selection:</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    <option value="5">Five</option>
+                                    <option value="6">Six</option>
+                                    <option value="7">Seven</option>
+                                    <option value="8">Eight</option>
+                                    <option value="9">Nine</option>
+                                    <option value="10">Ten</option>
+                                    <option value="11">Eleven</option>
+                                    <option value="12">Twelve</option>
+                                    <option value="13">Thirteen</option>
+                                    <option value="14">Fourteen</option>
+                                    <option value="15">Fifteen</option>
+                                    <option value="16">Sixteen</option>
+                                    <option value="17">Seventeen</option>
+                                    <option value="18">Eighteen</option>
+                                    <option value="19">Nineteen</option>
+                                </select>
+                            </div>  
+                        </div>
+                        <br><br>
+
+                        <!--list for bath-->
+                        <div class="col-md-3">
+                            <div class="form-input" id="bath_input">
+                                <br>
+                                <label for="bath">Number of Bathrooms:</label>
+                                <br>
+                                <select name="bath" id="bath">
+                                    <option value="1">Please Make A Selection:</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    <option value="5">Five</option>
+                                    <option value="6">Six</option>
+                                    <option value="7">Seven</option>
+                                    <option value="8">Eight</option>
+                                    <option value="9">Nine</option>
+                                    <option value="10">Ten</option>
+                                    <option value="11">Eleven</option>
+                                    <option value="12">Twelve</option>
+                                    <option value="13">Thirteen</option>
+                                    <option value="14">Fourteen</option>
+                                    <option value="15">Fifteen</option>
+                                    <option value="16">Sixteen</option>
+                                    <option value="17">Seventeen</option>
+                                    <option value="18">Eighteen</option>
+                                    <option value="19">Nineteen</option>
+                                </select>
+                            </div>  
+                        </div>
+                        <br><br>
+
+                        <!--list for house size-->
+                        <div class="col-md-3">
+                            <div class="form-input" id="house_size_input">
+                                <br>
+                                <label for="house_size">Home Size:</label>
+                                <br>
+                                <input type="text" placeholder="" id="house_size">
+                            </div>  
+                        </div>
+                        <br><br>
+
+
+                        <!--list for zip_code-->
+                        <div class="col-md-3">
+                            <div class="form-input" id="zip_input">
+                                <br>
+                                <label for="zip_code">Your Zip Code:</label>
+                                <br>
+                                <input type="text" placeholder="" id="zip_code">
+                            </div>
+                        </div>
+                        <br><br>
+
+                        <!-- predition buttons and output-->
+                        <br></br>
+                        <br></br>
+
+                        <div class="col-md-12">
+                            <button onclick="make_pred()" class='btn btn-info'>PREDICT</button>
+                            <button onClick="window.location.reload();" class='btn btn-info'>Refresh</button>
+                            <button onclick="history.back()" class='btn btn-info'>Home Page</button>
+                            <div class="col-md-12">
+                                <h1 id="prediction"></h1>
+
+                            </div>
+                        </div>
+                        
+                </div>
+            </div>
+            <br><br>
+        
+
+            <!--result descriptions-->
+            <div class="jumbotron2">
+                <div class='col-md-12'>
+                    
+                </div>
+            </div>
+            <br><br>
+
+        <!-- Link to JS file, d3, and plotly-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="../static/js/app.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>

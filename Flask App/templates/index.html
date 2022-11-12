@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walmart and Trader Joe's Impact on Home Values: A Machine Learning Model </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+    <link rel="stylesheet" href="../static/css/style.css">
+    
+
+</head>
+
+
+<body>  
+    <div class='container-fluid'>
+        <div class="jumbotron specialjum">
+            <br></br>
+            <br></br>
+            <br></br>
+            <h1 class="display-1" >Walmart and Trader Joe's vs the value of your home?</h1>
+            <br></br>
+            <p class="lead">Lets explore</p>
+            <br></br>
+            <a href='/predict' class='button'>Make a Prediction</a>
+            
+        </div>
+    
+
+
+        <div class="row">
+            <!--Background Info Block-->
+            <div id="description" class="col-md-6">
+                <br></br>
+                <a>Overview:</a><br><br>
+                <ul>
+                    <li>There are 559 Trader Joe’s retail stores in the United States as of October 24, 2022.</li>
+                    <br>
+                    <li>Walmart has a total of 4,742 stores throughout the United States as of January 31st, 2022.</li>
+                    <br>
+                    <li>What is the correlation between house location and proximity to either Trader Joes or Walmart?</li>
+                    <br>
+                    <li>add hypothesis</li>
+                </ul>
+            </div>
+
+            <!-- Google slideshow - responsive elements in CSS -->
+            <div class="col-md-6">
+                <br><br>
+                <div class="responsive-google-slides">
+                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQtvfVZBb-CSPalnY5LMPJq4Cwr8QaRtwcve4IHzZrEB55K0n1oAhVK4BWOrIve5ySRE7AP-uFkO4oj/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+
+
+        <!--Intro to graphs-->
+        <div class="wrapper">
+            <div class="divider div-transparent"> 
+            </div>
+            <a>Correlation Matrix:</a> 
+            <div class="divider div-transparent"> 
+            </div>
+        </div>
+        <br><br>
+        
+        <!--begin row-->
+
+
+        <!-- <div class="row">
+            
+                Correlation Chart or Other visulalization
+                <div class='tableauPlaceholder' id='viz1636659283096'>
+                    <noscript>
+                        <a href='#'>
+                            <iframe alt='Conspiracy Theories ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Conspiracy_Theory&#47;Story1&#47;1_rss.png' style='border: none'></iframe>
+                        </a>
+                    </noscript>
+                    <object class='tableauViz'  style='display:none;'>
+                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                        <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+                        <param name='name' value='Conspiracy_Theory&#47;Story1' /><param name='tabs' value='no' />
+                        <param name='toolbar' value='yes' />
+                        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Conspiracy_Theory&#47;Story1&#47;1.png' /> 
+                        <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' /><param name='language' value='en-US' />
+                    </object>
+                </div>                
+                <script type='text/javascript'>                    
+                    var divElement = document.getElementById('viz1636659283096');                    
+                    var vizElement = divElement.getElementsByTagName('object')[0];                    
+                    vizElement.style.width='1016px';vizElement.style.height='991px';                    
+                    var scriptElement = document.createElement('script');                    
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                </script>
+              
+        </div> -->
+
+
+            <br>
+
+            <!--Description of graph elements-->
+            <div class="row">
+                <div class="col-md-5" >
+                    <br>
+                    <h3>Results:</h3> 
+                            <br>
+                            <p>
+                                What we found?.....
+                            </p>
+                            <p>
+                                .... 
+                            </p>
+                </div>
+            </div>
+                   
+            <br><br><br>
+    
+        <!--Link to our github-->
+        <div class="row">
+            <div class="col-md-6">
+                        <img src="../static/images/House_coin_image.jpg" style="height:220px ; width:368px" />
+                        <br><br>
+                <a style='font-size:20px' href="https://github.com/dianahcortez/Real_Estate_Final_Project" target="_blank">Click here to view our code on GitHub!</a>
+                <br><br>
+            </div>
+        </div>
+
+
+        <!-- Link to JS file, d3, and plotly-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+        <script src=“https://code.jquery.com/jquery-3.3.1.slim.min.js” integrity=“sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo” crossorigin=“anonymous”></script>
+        <script src=“https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.bundle.min.js” integrity=“sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM” crossorigin=“anonymous”></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="../static/js/app.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    </div>
+</body>
+
+</html>
