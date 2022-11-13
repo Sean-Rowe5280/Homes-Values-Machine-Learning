@@ -17,63 +17,96 @@
 <body>  
     <div class='container-fluid'>
         <div class="jumbotron specialjum">
+
             <br></br>
             <br></br>
             <br></br>
-            <h1 class="display-1" >Walmart and Trader Joe's vs the value of your home?</h1>
             <br></br>
-            <p class="lead">Lets explore</p>
-            <br></br>
-            <a href='/predict' class='button'>Make a Prediction</a>
-            
+            <h1 class="display-1" >Walmart and Trader Joe's:</h1><br></br>
+            <h1 class="display-4" > What they mean for <br>
+                the value of your home?</h1>
+            <!-- <p class="lead" style=font-size:50px>Lets explore</p> -->
+            <!-- <br></br>
+            <a href='/predict' class='button' style="background-color:rgb(230, 190, 15) ">Make a Prediction</a>
+             -->
         </div>
     
-
+        <!-- Next Page Button -->
+        <div class="row">
+            <div id="description" class="col-md-12" style="text-align: center">
+            <p class="lead" style=font-size:40px>Lets explore</p>
+            <a href='/predict' class='button' style="color:rgb(196, 38, 51,1)">Make a Prediction</a>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            </div>
+        </div>
 
         <div class="row">
             <!--Background Info Block-->
             <div id="description" class="col-md-6">
                 <br></br>
-                <a>Overview:</a><br><br>
+                <a>Overview</a><br><br>
                 <ul>
-                    <li>There are 559 Trader Joe’s retail stores in the United States as of October 24, 2022.</li>
+                    <li style="font-weight: bold">The aim of this project was to answer the question: is there a connection between the location of these retail stores and the value of nearby real estate?</li>
                     <br>
-                    <li>Walmart has a total of 4,742 stores throughout the United States as of January 31st, 2022.</li>
+                    <li>Trader Joe's has built a brand on selling niche goods you can't find at other super market chains, and although not considered high end stores are seemingly located up in nicer more affluent neigherhoods much like Whole Foods.</li>
+                    <br>
+                    <li>Walmart on the other hand is that one stop superstore that prioritizes the variety of cheep goods it sells and the cost savings it brings to its customers and its sotres are found EVERYWHERE but particularily in low income areas or seemingly so.</li>
+                    <br>
+                    <li>In 2022 there were 559 Trader Joe’s and 4,742 Walmarts in the United States. </li>
                     <br>
                     <li>What is the correlation between house location and proximity to either Trader Joes or Walmart?</li>
-                    <br>
-                    <li>add hypothesis</li>
                 </ul>
             </div>
 
-            <!-- Google slideshow - responsive elements in CSS -->
-            <div class="col-md-6">
+            <div id="description" class="col-md-6">
+                <br></br>
+                <a>The Data</a><br><br>
+                <ul>
+                    <li>Realtor.com dataset with poperty value( our Target), number of baths, number of beds, house size, acre size and location information such as address and zip code. </li>
+                    <br>
+                    <li>Walmart dataset pulled from Kaggle with store locations and addresses infromation for all the stores in the US as of 2016.</li>
+                    <br>
+                    <li>Trader Joe's dataset also pulled from Kaggle with store locations(address, zip code, city, state, latitude and longitude) accross the US as of 2016.</li>
+                    <!-- <br>
+                    <li></li>
+                    <br>
+                    <li></li> -->
+                </ul>
+                <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            </div>
+        </div>
+       
+
+        <!-- Google slideshow - responsive elements in CSS -->
+        <div class="row">
+            <br></br>
+            <div id="Slides" class="col-md-12" style="text-align: center">
                 <br><br>
                 <div class="responsive-google-slides">
                     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQtvfVZBb-CSPalnY5LMPJq4Cwr8QaRtwcve4IHzZrEB55K0n1oAhVK4BWOrIve5ySRE7AP-uFkO4oj/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                 </div>
             </div>
-        </div>
-        <br><br><br>
-
-
+        
+       
         <!--Intro to graphs-->
-        <div class="wrapper">
-            <div class="divider div-transparent"> 
-            </div>
-            <a>Correlation Matrix:</a> 
+            <div class="wrapper">
+                <div class="divider div-transparent"> 
+                </div>
+                <a>Correlation Matrix:</a> 
             <div class="divider div-transparent"> 
             </div>
         </div>
         <br><br>
         
         <!--begin row-->
-
-
-        <!-- <div class="row">
-            
-                Correlation Chart or Other visulalization
-                <div class='tableauPlaceholder' id='viz1636659283096'>
+                <!-- Correlation Chart or Other visulalization
+            <div class='tableauPlaceholder' id='viz1636659283096'>
                     <noscript>
                         <a href='#'>
                             <iframe alt='Conspiracy Theories ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Conspiracy_Theory&#47;Story1&#47;1_rss.png' style='border: none'></iframe>
@@ -89,7 +122,7 @@
                         <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
                         <param name='display_count' value='yes' /><param name='language' value='en-US' />
                     </object>
-                </div>                
+            </div>                
                 <script type='text/javascript'>                    
                     var divElement = document.getElementById('viz1636659283096');                    
                     var vizElement = divElement.getElementsByTagName('object')[0];                    
@@ -99,14 +132,13 @@
                     vizElement.parentNode.insertBefore(scriptElement, vizElement);                
                 </script>
               
-        </div> -->
 
 
-            <br>
+            <br> -->
 
             <!--Description of graph elements-->
-            <div class="row">
-                <div class="col-md-5" >
+        <div class="row">
+                <div class="col-md-6" >
                     <br>
                     <h3>Results:</h3> 
                             <br>
@@ -117,27 +149,25 @@
                                 .... 
                             </p>
                 </div>
-            </div>
+            
                    
             <br><br><br>
     
         <!--Link to our github-->
-        <div class="row">
-            <div class="col-md-6">
+                <div class="col-md-6">
                         <img src="../static/images/House_coin_image.jpg" style="height:220px ; width:368px" />
                         <br><br>
                 <a style='font-size:20px' href="https://github.com/dianahcortez/Real_Estate_Final_Project" target="_blank">Click here to view our code on GitHub!</a>
                 <br><br>
-            </div>
+                </div>
         </div>
 
-
         <!-- Link to JS file, d3, and plotly-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
         <script src=“https://code.jquery.com/jquery-3.3.1.slim.min.js” integrity=“sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo” crossorigin=“anonymous”></script>
         <script src=“https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.bundle.min.js” integrity=“sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM” crossorigin=“anonymous”></script>
         <script src="https://d3js.org/d3.v7.min.js"></script>
-        <script src="../static/js/app.js"></script>
+        <script src="../static/apps/app.js"></script>
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     </div>
 </body>
