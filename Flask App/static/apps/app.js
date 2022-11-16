@@ -15,22 +15,29 @@ function make_pred(){
     fetch("/predict", {
         method: "POST", 
         body: JSON.stringify({
+            bed: bed,
+            bath: bath,
+            acre_lot: acre_lot,
+            zip_code: zip_code,
+            house_size: house_size,
+            TJs_store_count: TJs_store_count,
+            walmart_store_count: walmart_store_count
             
             
-            
-
-
         }),
         headers:{
             "Content-type":"application/json;charset=UTF-8"
 
         } 
-    }).then(response=>{
-        return response.json()
-    }).then(response=>{
-        console.log(response)
-        document.getElementById("prediction").innerHTML=response.pred
-        console.log(response.pred);
-        
+    }).then(resp=>{
+        return resp.json()
+    }).then(resp=>{
+        console.log(resp.Prediction)
+        document.getElementById("prediction").innerHTML=resp.Prediction;
+        // console.log(resp[0]);
+        // console.log(resp.Prediction);
+        // if (resp.Prediction==resp.Prediction){
+        //     document.getElementById("dummy")
+        // }
     })
 }
