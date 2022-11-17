@@ -17,24 +17,23 @@
 <body>  
     <div class='container-fluid'>
         <div class="jumbotron specialjum">
-
             <br></br>
             <br></br>
             <br></br>
-            <br></br>
-            <h1 class="display-1" >Walmart and Trader Joe's:</h1><br></br>
-            <h1 class="display-4" > What they mean for <br>
-                the value of your home?</h1>
+            <h1 class="display-1" >Trader Joe's<br>and<br>Walmart:</h1><br></br>
+            <h1 class="display-4" > What do they mean for the value of your home?</h1>
             <!-- <p class="lead" style=font-size:50px>Lets explore</p> -->
-            <!-- <br></br>
-            <a href='/predict' class='button' style="background-color:rgb(230, 190, 15) ">Make a Prediction</a>
-             -->
+ 
+            <!-- <a href='/predict' class='button' style="background-color:rgb(230, 190, 15) ">Make a Prediction</a> -->
+             
         </div>
-    
+        
         <!-- Next Page Button -->
         <div class="row">
             <div id="description" class="col-md-12" style="text-align: center">
             <p class="lead" style=font-size:40px>Lets explore</p>
+            <br></br>
+            <br></br>
             <a href='/predict' class='button' style="color:rgb(196, 38, 51,1)">Make a Prediction</a>
             <br></br>
             <br></br>
@@ -43,121 +42,166 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" id="background" >
             <!--Background Info Block-->
-            <div id="description" class="col-md-6">
+            <div id="Overview" class="col-md-6">
                 <br></br>
                 <a>Overview</a><br><br>
                 <ul>
-                    <li style="font-weight: bold">The aim of this project was to answer the question: is there a connection between the location of these retail stores and the value of nearby real estate?</li>
+                    <li>Trader Joe's and Walmart couldn't be more different as stores in terms of the demographics they target, the products they sell, the size of stores and even location.Trader Joe's has built a brand as a supermarket selling niche food products you can't find at other supermarkets, their stores are moderately sized and have been deliberately located in more affluent urban neighborhoods, or seemingly so.
+                        In contrast Walmart is that one stop superstore that provides a large selection of low cost goods and is both a supermarket and general merchandise retailer. It has built a brand on affordablilty where a family or individuals dollar goes further and its sotres are found EVERYWHERE but particularily seem to be found in more suburban and low income areas.
+                    </li>
                     <br>
-                    <li>Trader Joe's has built a brand on selling niche goods you can't find at other super market chains, and although not considered high end stores are seemingly located up in nicer more affluent neigherhoods much like Whole Foods.</li>
+                    <li style="font-weight: bold">Our goal and the aim of this project was to determine if a connection exists between home value and the number of Trader Joe's and/or Walmart's in proximity to the home.</li>
                     <br>
-                    <li>Walmart on the other hand is that one stop superstore that prioritizes the variety of cheep goods it sells and the cost savings it brings to its customers and its sotres are found EVERYWHERE but particularily in low income areas or seemingly so.</li>
-                    <br>
-                    <li>In 2022 there were 559 Trader Joe’s and 4,742 Walmarts in the United States. </li>
-                    <br>
-                    <li>What is the correlation between house location and proximity to either Trader Joes or Walmart?</li>
+                    <li style="font-weight: bold">What is the correlation between house location and proximity to Trader Joe's or Walmart?</li>
                 </ul>
             </div>
 
-            <div id="description" class="col-md-6">
+            <div id="Data" class="col-md-6">
                 <br></br>
                 <a>The Data</a><br><br>
                 <ul>
-                    <li>Realtor.com dataset with poperty value( our Target), number of baths, number of beds, house size, acre size and location information such as address and zip code. </li>
+                    <li style="font-weight: bold">Realtor.com data:</li>
+                    <h6>A real estate dataset with property listings for the entire U.S. and Puerto Rico with price(Target Value), number of bedrooms and baths, house size, lot size and the address.</h6>
                     <br>
-                    <li>Walmart dataset pulled from Kaggle with store locations and addresses infromation for all the stores in the US as of 2016.</li>
+                    <li style="font-weight: bold">Walmart data:</li>
+                    <h6>Kaggle dataset with location information(address, zip code, city, state, latitude and longitude) for all U.S. Walmart stores.</h6>
                     <br>
-                    <li>Trader Joe's dataset also pulled from Kaggle with store locations(address, zip code, city, state, latitude and longitude) accross the US as of 2016.</li>
-                    <!-- <br>
-                    <li></li>
-                    <br>
-                    <li></li> -->
+                    <li style="font-weight: bold">Trader Joe's data:</li>
+                    <h6>Kaggle dataset with location infromation(address, zip code, city, state, latitude and longitude) for all U.S. Trader Joe's.</h6>
                 </ul>
                 <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+                <br></br>
+                <br></br>
             </div>
+
         </div>
        
-
+    
         <!-- Google slideshow - responsive elements in CSS -->
         <div class="row">
-            <br></br>
             <div id="Slides" class="col-md-12" style="text-align: center">
+                <a>Project Background</a>
                 <br><br>
-                <div class="responsive-google-slides">
+                <br><br>
                     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQtvfVZBb-CSPalnY5LMPJq4Cwr8QaRtwcve4IHzZrEB55K0n1oAhVK4BWOrIve5ySRE7AP-uFkO4oj/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                </div>
-            </div>
-        
-       
-        <!--Intro to graphs-->
-            <div class="wrapper">
-                <div class="divider div-transparent"> 
-                </div>
-                <a>Correlation Matrix:</a> 
-            <div class="divider div-transparent"> 
+                <br><br>
+                <br><br>
             </div>
         </div>
-        <br><br>
+        
+        <br></br>
+        <br></br>      
+     
         
         <!--begin row-->
-                <!-- Correlation Chart or Other visulalization
-            <div class='tableauPlaceholder' id='viz1636659283096'>
+        <div class="row">
+            <div class="col-md-6" id='correlation matrix'>
+                <a>Model Features</a>  
+                <br><br>
+                <br><br>
+                    <img id=correlation src='../static/images/correlation Matrix.jpg' style='border: none'>
+            
+            </div>
+            <div class="col-md-6"id='correlation matrix' >
+                <a>What's the correlation Matrix telling us?</a> 
+                        <br><br>
+                        <br><br>
+                        <br><br>
+                        <li>
+                            Reviewing the correlation of our features we can see that Walmart and Trader Joe's proximities have correlation coefficients of -.14 and .23 respectively. 
+                            These correlations are not incredibly strong but the only feature in our model with a greater correlation is the number of beds at .29.  
+                            
+                        </li>
+                        <br><br> 
+                        <li>Despite these low values the direction of the correlations matched what we predicted. We were expecting poperty values to be negatively correlated with the Walmart proiximty(how close a home is to Walmart) and positively correlated with proximity to 
+                            Trader Joe's, and thats indeed what we see.
+                        </li> 
+                        <br><br>                  
+                        <li>
+                            Another feature worth noting from the correlation matrix is Acre Lot which is showing no correlation. Inuitively this doesn't make sense, large multi-acre properties should be more valuable and we would expect to see a positive correlation. 
+                            The little to no correlation we're seeing is likely due to the property types we examined in our model, more properties with little or no acres like apartments and condos. More research is needed though.
+                        </li>
+                        <p>
+                        </p>
+                        
+            </div>
+        </div>
+            <!-- Other Visualizations -->
+            <div class="wrapper">
+                <br><br>  
+                <br><br>
+                <br><br>
+                <div class="divider div-transparent" > 
+                </div>
+                <a> Dashboard: Visualizing the Data with Tableau</a> 
+                <div class="divider div-transparent">
+                </div>
+               
+            </div>
+
+                <!--begin row-->
+            <div class="row">
+                <!-- Tableau -->
+                <div class='col-md-12' id='viz1668717100196'>
                     <noscript>
                         <a href='#'>
-                            <iframe alt='Conspiracy Theories ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Conspiracy_Theory&#47;Story1&#47;1_rss.png' style='border: none'></iframe>
+                            <img alt='Real Estate ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;RealEstateProject_16686111659970&#47;RealEstate&#47;1_rss.png' style='border: none'/>
                         </a>
                     </noscript>
                     <object class='tableauViz'  style='display:none;'>
                         <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-                        <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
-                        <param name='name' value='Conspiracy_Theory&#47;Story1' /><param name='tabs' value='no' />
+                        <param name='embed_code_version' value='3' /> 
+                        <param name='site_root' value='' />
+                        <param name='name' value='RealEstateProject_16686111659970&#47;RealEstate' />
+                        <param name='tabs' value='no' />
                         <param name='toolbar' value='yes' />
-                        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Conspiracy_Theory&#47;Story1&#47;1.png' /> 
-                        <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
-                        <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
-                        <param name='display_count' value='yes' /><param name='language' value='en-US' />
+                        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;RealEstateProject_16686111659970&#47;RealEstate&#47;1.png' /> 
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                        <param name='language' value='en-US' />
+                        <param name='filter' value='publish=yes' />
                     </object>
-            </div>                
+                </div>
                 <script type='text/javascript'>                    
-                    var divElement = document.getElementById('viz1636659283096');                    
+                    var divElement = document.getElementById('viz1668717100196');                    
                     var vizElement = divElement.getElementsByTagName('object')[0];                    
-                    vizElement.style.width='1016px';vizElement.style.height='991px';                    
+                    vizElement.style.width='1750px';vizElement.style.height='1300px';                    
                     var scriptElement = document.createElement('script');                    
                     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);               
                 </script>
-              
-
-
-            <br> -->
-
-            <!--Description of graph elements-->
+          </div>
+    
+        <!-- Conclusions -->
         <div class="row">
-                <div class="col-md-6" >
+            <div class="col-md-6" id='conclusions'>
+                <a>Conclusions</a>
+                <br>
+                <br>
+                <ul>
+                    <li>The proximity of a Walmart or Trader Joe's to a home is correlated with home value however there are better features to predict the house price.
+                    </li>
                     <br>
-                    <h3>Results:</h3> 
-                            <br>
-                            <p>
-                                What we found?.....
-                            </p>
-                            <p>
-                                .... 
-                            </p>
-                </div>
-            
-                   
-            <br><br><br>
+                    <li>
+                    </li>
+                    <br>
+                    <li>
+                    </li>
+                </ul>
+
+            </div>
     
         <!--Link to our github-->
-                <div class="col-md-6">
-                        <img src="../static/images/House_coin_image.jpg" style="height:220px ; width:368px" />
+        
+                <div class="col-md-6" style="text-align:center">
+                        <img src="../static/images/office.webp" style="height:220px ; width:368px" />
                         <br><br>
-                <a style='font-size:20px' href="https://github.com/dianahcortez/Real_Estate_Final_Project" target="_blank">Click here to view our code on GitHub!</a>
+                <a style='font-size:20px' href="https://github.com/dianahcortez/Real_Estate_Final_Project" target="_blank">To view our code on GitHub click here</a>
                 <br><br>
                 </div>
         </div>
