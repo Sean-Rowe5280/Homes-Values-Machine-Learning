@@ -41,7 +41,7 @@ Walmart U.S has a total of 4,742 stores throughout the United States as of Janua
 - Machine Learning Model : ie Random Forrest or gradient boosting (why we choose that model.....)
 
 ## Dashboard
-<insert either the whole dashboard, story, or a few slides>
+https://public.tableau.com/app/profile/amanda.palenchar/viz/RealEstateProject_16686111659970/RealEstate?publish=yes
 
 ## Website
 <insert screen shot or github.io url>
