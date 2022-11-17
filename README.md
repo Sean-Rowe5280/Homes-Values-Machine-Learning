@@ -42,8 +42,7 @@ Walmart U.S has a total of 4,742 stores throughout the United States as of Janua
 
 ## Tableau Dashboard
 https://public.tableau.com/app/profile/amanda.palenchar/viz/RealEstateProject_16686111659970/RealEstate?publish=yes
-<img width="600" alt="correlation matrix" src="https://user-images.githubusercontent.com/104927745/202534596-b932cae1-9d4f-4385-9afd-38de3c106dd9.PNG">
-
+<img width="500" alt="correlation matrix" src="https://user-images.githubusercontent.com/104927745/202534596-b932cae1-9d4f-4385-9afd-38de3c106dd9.PNG">
 
 ## Website
 <insert screen shot or github.io url>
