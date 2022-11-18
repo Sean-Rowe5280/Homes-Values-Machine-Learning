@@ -7,7 +7,6 @@ https://docs.google.com/presentation/d/1hicRLcFchYJkWVCfVf5MAll55AlxC4zmu1B6mxmV
 ## Communication Protocol 
 Main communication is over Slack private group direct message, also meet during office/class hours as group.  Google shared drive for presentation slides, notes and other communications as needed.
 
-
 ## Overview
 There are 559 Trader Joe’s retail stores in the United States as of October 24, 2022. The state with the most number of Trader Joe’s locations in the US is California, with 192 retail stores, which is about 34% of all Trader Joe’s retail stores in the US.
 
@@ -46,7 +45,9 @@ https://public.tableau.com/app/profile/amanda.palenchar/viz/RealEstateProject_16
 <img width="500" alt="correlation matrix" src="https://user-images.githubusercontent.com/104927745/202534596-b932cae1-9d4f-4385-9afd-38de3c106dd9.PNG">
 
 ## Website
-<insert screen shot or github.io url>
+<insert screen shot of website making prediction>
+<link to youtube demonstration url>
+   
 
 ## Team S.C.A.R
 - Sean Rowe
