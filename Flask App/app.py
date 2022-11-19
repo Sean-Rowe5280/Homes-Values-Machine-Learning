@@ -36,12 +36,14 @@ def predict():
         # test_data = [[education, urban, gender, engant, age, hand_orientation, religion, orientation, race, voted, married, family_size]]
         data = pd.DataFrame([[walmart_store_count, TJs_store_count, bed, bath, acre_lot, house_size, zip_code]], columns=columns)
         pred=model.predict(data)
-
+        pred="${:0,.2f}".format(pred[0])
 
         print(data)
+        # print("${:0,.2f}".format(pred[0]))
+
         print(pred)
         # return render_template('predictions.html', output=output)
-        return {"Prediction": pred[0]}
+        return {"Prediction": pred}
       
     return render_template('predictions.html', output=output)   
     # return render_template('predictions.html')       

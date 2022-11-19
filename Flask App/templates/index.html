@@ -20,8 +20,8 @@
             <br></br>
             <br></br>
             <br></br>
-            <h1 class="display-1" >Trader Joe's<br>and<br>Walmart:</h1><br></br>
-            <h1 class="display-4" > What do they mean for the value of your home?</h1>
+            <h1 class="display-1">Trader Joe's<br>and<br>Walmart:</h1><br></br>
+            <h1 class="display-4"> What do they mean for the value of your home?</h1>
             <!-- <p class="lead" style=font-size:50px>Lets explore</p> -->
  
             <!-- <a href='/predict' class='button' style="background-color:rgb(230, 190, 15) ">Make a Prediction</a> -->
@@ -31,7 +31,7 @@
         <!-- Next Page Button -->
         <div class="row">
             <div id="description" class="col-md-12" style="text-align: center">
-            <p class="lead" style=font-size:40px>Lets explore</p>
+            <p class="lead" style=font-size:40px>Let's explore</p>
             <br></br>
             <br></br>
             <a href='/predict' class='button' style="color:rgb(196, 38, 51,1)">Make a Prediction</a>
@@ -46,15 +46,18 @@
             <!--Background Info Block-->
             <div id="Overview" class="col-md-6">
                 <br></br>
-                <a>Overview</a><br><br>
+                <a>Overview & Essential Question</a><br><br>
                 <ul>
-                    <li>Trader Joe's and Walmart couldn't be more different as stores in terms of the demographics they target, the products they sell, the size of stores and even location.Trader Joe's has built a brand as a supermarket selling niche food products you can't find at other supermarkets, their stores are moderately sized and have been deliberately located in more affluent urban neighborhoods, or seemingly so.
-                        In contrast Walmart is that one stop superstore that provides a large selection of low cost goods and is both a supermarket and general merchandise retailer. It has built a brand on affordablilty where a family or individuals dollar goes further and its sotres are found EVERYWHERE but particularily seem to be found in more suburban and low income areas.
+                    <li>The <b>Goal</b> of this project is to determine if a connection exists between home value and the home proximity to a grocery store.
                     </li>
                     <br>
-                    <li style="font-weight: bold">Our goal and the aim of this project was to determine if a connection exists between home value and the number of Trader Joe's and/or Walmart's in proximity to the home.</li>
+                    <li><b>Essential Question:</b> What is the correlation between home value and proximity to Trader Joe's or Walmart?</li>
                     <br>
-                    <li style="font-weight: bold">What is the correlation between house location and proximity to Trader Joe's or Walmart?</li>
+                    <li><b>The Stores:</b>Trader Joe's and Walmart couldn't be more different as stores in terms of the demographics they target, the products they sell, the size of stores and even location.</li>
+                    <br>
+                    <li><b>Trader Joe's</b> has built a brand as a supermarket selling niche food products that consumers can't find at other supermarkets. Their stores are moderately sized.</li>
+                    <br>
+                    <li>In contrast, <b>Walmart</b> is that one stop superstore that provides a large selection of low cost goods and is both a supermarket and general merchandise retailer. It has built a brand on affordability, where a family or individual’s dollar goes further.</li>
                 </ul>
             </div>
 
@@ -62,14 +65,14 @@
                 <br></br>
                 <a>The Data</a><br><br>
                 <ul>
-                    <li style="font-weight: bold">Realtor.com data:</li>
-                    <h6>A real estate dataset with property listings for the entire U.S. and Puerto Rico with price(Target Value), number of bedrooms and baths, house size, lot size and the address.</h6>
+                    <li><b>Real Estate:</b> Realtor.com dataset with property listings for the entire U.S. and Puerto Rico with price(Target Value), number of bedrooms and baths, house size, lot size and the address.</li>
                     <br>
-                    <li style="font-weight: bold">Walmart data:</li>
-                    <h6>Kaggle dataset with location information(address, zip code, city, state, latitude and longitude) for all U.S. Walmart stores.</h6>
                     <br>
-                    <li style="font-weight: bold">Trader Joe's data:</li>
-                    <h6>Kaggle dataset with location infromation(address, zip code, city, state, latitude and longitude) for all U.S. Trader Joe's.</h6>
+                    <li><b>Walmart:</b> Kaggle dataset with location information(address, zip code, city, state, latitude and longitude) for all U.S. Walmart stores.</li>
+                    <br>
+                    <br>
+                    <li><b>Trader Joe's:</b> Kaggle dataset with location information(address, zip code, city, state, latitude and longitude) for all U.S. Trader Joe's.</li>
+                    <br>
                 </ul>
                 <br></br>
                 <br></br>
@@ -85,7 +88,7 @@
                 <a>Project Background</a>
                 <br><br>
                 <br><br>
-                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQtvfVZBb-CSPalnY5LMPJq4Cwr8QaRtwcve4IHzZrEB55K0n1oAhVK4BWOrIve5ySRE7AP-uFkO4oj/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSab8hyCDuEKueoWrqBWb5m3extbHBqdbE9hsDJtHlTA4xF2aVKg6diRgBgB6_r2QhjDREmhsBydsHI/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                 <br><br>
                 <br><br>
             </div>
@@ -110,18 +113,15 @@
                         <br><br>
                         <br><br>
                         <li>
-                            Reviewing the correlation of our features we can see that Walmart and Trader Joe's proximities have correlation coefficients of -.14 and .23 respectively. 
-                            These correlations are not incredibly strong but the only feature in our model with a greater correlation is the number of beds at .29.  
+                            Reviewing the correlation of our features, we can see that Walmart and Trader Joe's proximities have correlation coefficients of -0.14 and 0.23, respectively. These correlations are not incredibly strong but the only feature in our model with a greater correlation is the number of beds at 0.29.  
                             
                         </li>
                         <br><br> 
-                        <li>Despite these low values the direction of the correlations matched what we predicted. We were expecting poperty values to be negatively correlated with the Walmart proiximty(how close a home is to Walmart) and positively correlated with proximity to 
-                            Trader Joe's, and thats indeed what we see.
+                        <li>Despite these low values the direction of the correlations matched what we predicted. We were expecting property values to be negatively correlated with the Walmart proximity and positively correlated with proximity to Trader Joe's, and that’s indeed what we see.
                         </li> 
                         <br><br>                  
                         <li>
-                            Another feature worth noting from the correlation matrix is Acre Lot which is showing no correlation. Inuitively this doesn't make sense, large multi-acre properties should be more valuable and we would expect to see a positive correlation. 
-                            The little to no correlation we're seeing is likely due to the property types we examined in our model, more properties with little or no acres like apartments and condos. More research is needed though.
+                            Another feature worth noting from the correlation matrix is Acre Lot which is showing no correlation. Intuitively, this doesn't make sense, large multi-acre properties should be more valuable and we would expect to see a positive correlation. The little to no correlation we're seeing is likely due to the property types we examined in our model; more properties with little or no acres like apartments and condos.
                         </li>
                         <p>
                         </p>
@@ -169,14 +169,23 @@
                 </div>
                 <script type='text/javascript'>                    
                     var divElement = document.getElementById('viz1668717100196');                    
-                    var vizElement = divElement.getElementsByTagName('object')[0];                    
-                    vizElement.style.width='1750px';vizElement.style.height='1300px';                    
+                    var vizElement = divElement.getElementsByTagName('object')[0];                     
+                    vizElement.style.minWidth='1709px';
+                    vizElement.style.maxWidth='1809px';
+                    vizElement.style.width='100%';
+                    vizElement.style.minHeight='923px';
+                    vizElement.style.maxHeight='1023px';                  
                     var scriptElement = document.createElement('script');                    
                     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
                     vizElement.parentNode.insertBefore(scriptElement, vizElement);               
                 </script>
+
           </div>
     
+        <br></br>
+        <br></br>
+        <br></br>
+
         <!-- Conclusions -->
         <div class="row">
             <div class="col-md-6" id='conclusions'>
@@ -184,27 +193,54 @@
                 <br>
                 <br>
                 <ul>
-                    <li>The proximity of a Walmart or Trader Joe's to a home is correlated with home value however there are better features to predict the house price.
+                    <li><b>Correlation:</b> No feature showed a strong correlation with home price, including Trader Joe’s and Walmart. However, the features that showed the strongest correlations with price can be seen with bath (0.29) and Trader Joe’s proximity (0.23). Walmart also has a reasonably strong correlation (-0.14), albeit negative.
                     </li>
                     <br>
-                    <li>
+                    <li><b>Machine Learning:</b> The extra tree regressor machine learning model proved to be the most effective model for the dataset. The R² value is 0.9293, meaning that the goodness of fit of the regression model is 93%.
                     </li>
                     <br>
-                    <li>
-                    </li>
                 </ul>
-
             </div>
-    
+            <div class="col-md-6" id='conclusions'>
+                <br>
+                <br>
+                <br>
+                <ul>
+                    <li><b>Web Application:</b> By using JavaScript and HTML, our group was able to launch a web application with multiple user interactive elements, allowing a user to accurately predict a house value based on the selected features.
+                    </li>
+                    <br>
+                    <li><b>Going Further:</b> A further investigation into the impact of using distance from Trader Joe’s and Walmart (given latitude and longitude) could impact correlation and still needs to be studied. Another next step could include increasing functionality of the website to allow end users to type an address and get a prediction of a home value.</li>
+                </ul>
+            </div>
+
+        </div>  
         <!--Link to our github-->
         
-                <div class="col-md-6" style="text-align:center">
+        <div class="row">
+            <div id="contributors" class="col-md-3">
+            </div>
+            <div id="contributors" class="col-md-3">
+                <br><br>
+                <br><br>
+                <a>Contributors</a>
+                <br><br>
+                    <ul>
+                        <li>Sean Rowe</li>
+                        <li>Dianah Cortez</li>
+                        <li>Amanada Palenchar</li>   
+                        <li>Skylar Rice</li>
+                    </ul>
+            </div>
+            <div id="github" class="col-md-3" style="text-align: center">
+                <br><br>
+                <br><br>
                         <img src="../static/images/office.webp" style="height:220px ; width:368px" />
                         <br><br>
                 <a style='font-size:20px' href="https://github.com/dianahcortez/Real_Estate_Final_Project" target="_blank">To view our code on GitHub click here</a>
                 <br><br>
-                </div>
+            </div>
         </div>
+        
 
         <!-- Link to JS file, d3, and plotly-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
