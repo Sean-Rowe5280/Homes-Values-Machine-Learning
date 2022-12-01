@@ -1,0 +1,75 @@
+body {
+  background-color: Transparent;
+  color: rgb(10, 10, 10);
+  font-family: Arial, sans-serif;
+  padding: 5px;
+  position: absolute;
+}
+
+a {
+  font-size: 40px; 
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
+  color: rgb(8, 8, 8);
+}
+
+p {
+  padding-left: 5%; 
+  font-family: Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 40px; 
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
+  color: rgb(19, 18, 18);
+} 
+
+/* h3 {
+  color: rgb(12, 12, 12);
+} */
+
+.jumbotron { background: 
+  linear-gradient(
+    rgba(1, 1, 194, 0.25), 
+    rgba(5, 19, 19, 0.45)
+  ),
+  url("../images/prediction_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Verdana', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(253, 251, 251);
+
+} 
+
+
+
+ .jumbotron2 {
+  background-color: Transparent;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.btn{
+    background-color: rgba(224, 142, 18, 0.25);
+    display: inline-block;
+    border: 2px solid rgb(7, 7, 7);
+    padding: 10px 20px;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 12px;
+  }
+
+.btn:hover {
+    background: rgba(200, 54, 54, .5);
+    color: rgb(2, 2, 2);
+  }
+
+a:hover { 
+  color: rgba(200, 54, 54, .5); 
+} 
